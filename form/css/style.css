@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(246, 246, 244);
+}
+
+header, footer {
+    height: 100px;
+    background-color: white;
+}
+
+header > section {
+    height: 100%;
+}
+
+main {
+    height: calc(100vh - 200px); /* 全体の高さからheaderとfooterの高さを除いた高さ */
+}
+
+.main-space {
+    margin: 0 auto;
+    width: 70vw;
+}
+
+#header-logo {
+    height: 100%;
+    object-fit: cover;
+}
+
+h1 {
+    width: calc(100vw - 30vw); /* padding分をマイナス */
+    background-color: rgb(22, 160, 133);
+    color: white;
+    padding: 0.8em 15vw;
+    margin: 0;
+}
+
+#step {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+#step > ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+#step > ul > li {
+    display: block;
+    width: calc(70vw / 3);
+    background-color: azure;
+    padding: 0.8em;
+    border: 3px solid rgb(246, 246, 244);
+}
+
+#step > ul > li > p {
+    margin: 0;
+}
+
+#step > ul > li > p:first-child {
+    font-size: 12px;
+}
+
+.description {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
