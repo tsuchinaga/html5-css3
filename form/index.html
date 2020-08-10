@@ -8,16 +8,18 @@
 </head>
 <body>
 <header>
-    <div class="main-space">
+    <div class="main-space logo">
         <img id="header-logo" src="img/sample-logo-design-png-3.png" alt="サンプルロゴ">
     </div>
 </header>
 <main>
-    <h1>お問い合わせフォーム(サンプル)</h1>
+    <div class="h1">
+        <h1 class="main-space">お問い合わせフォーム(サンプル)</h1>
+    </div>
 
     <nav id="step" class="main-space">
         <ul>
-            <li class="step-first">
+            <li class="step-first current">
                 <p>STEP1</p>
                 <p>情報の入力</p>
             </li>
@@ -36,6 +38,104 @@
         お客様からのご質問をお問い合わせフォームにて受け付けております。<br>
         必要事項をご記入の上、「入力内容の確認画面へ」を押してください。
     </p>
+
+    <section class="main-space form-section">
+        <h2>お問い合わせ内容を入力してください</h2>
+        <div>
+            <div class="horizontal">
+                <div class="form-heading">
+                    <label for="contact-body" class="required">お問い合わせ内容</label>
+                </div>
+                <div>
+                    <textarea id="contact-body" name="contact-body" rows="5"></textarea>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="main-space form-section">
+        <h2>お客様情報を入力してください</h2>
+        <div>
+            <div class="horizontal">
+                <div class="form-heading">
+                    <label for="user-name" class="required">お名前</label>
+                </div>
+                <div>
+                    <input id="user-name" name="user-name" placeholder="山田　太郎">
+                </div>
+            </div>
+            <div class="horizontal">
+                <div class="form-heading">
+                    <label for="company-name">会社名</label>
+                </div>
+                <div>
+                    <input id="company-name" name="company-name" placeholder="有限会社スピードレッド">
+                </div>
+            </div>
+            <div class="horizontal">
+                <div class="form-heading">
+                    <span>ご住所</span>
+                </div>
+                <div>
+                    <div class="horizontal">
+                        <div><label for="address-zip">郵便番号</label></div>
+                        <div><input id="address-zip" type="text" placeholder="123-4567"></div>
+                    </div>
+                    <div class="horizontal">
+                        <div><label for="address-prefectures">都道府県</label></div>
+                        <div><input id="address-prefectures" type="text"></div>
+                    </div>
+                    <div class="horizontal">
+                        <div><label for="address-city">市区町村番地</label></div>
+                        <div><input id="address-city" type="text"></div>
+                    </div>
+                    <div class="horizontal">
+                        <div><label for="address-building">マンション/ビル名</label></div>
+                        <div><input id="address-building" type="text"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="horizontal">
+                <div class="form-heading">
+                    <label for="company-tel">電話番号</label>
+                </div>
+                <div>
+                    <input id="company-tel" placeholder="012-3456-7890">
+                </div>
+            </div>
+            <div class="horizontal">
+                <div class="form-heading required">
+                    <label for="email-address">メールアドレス</label>
+                </div>
+                <div>
+                    <input id="email-address" type="text" placeholder="xxx@example.com">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="main-space form-section">
+        <h2>個人情報の取り扱いについて</h2>
+        <p>下記事項をご確認の上、同意していただける場合は[同意する]にチェックを入れてください</p>
+
+        <div>
+            <div class="horizontal">
+                <div class="form-heading">
+                    <label for="agree" class="required">同意する</label>
+                </div>
+                <div>
+                    <input id="agree" type="checkbox">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="main-space form-section">
+        <p>[入力内容の確認画面へ]ボタンをクリックして入力内容のご確認をお願いします。<br>
+            ご入力、誠にありがとうございました。</p>
+
+        <button class="submit">入力内容の確認画面へ</button>
+    </div>
 </main>
 <footer>
     <div class="main-space">
