@@ -59,3 +59,14 @@ Safariは、まあ、マイペースに進んでいるからいいんじゃな�
 * [Mobile HTML5 compatibility on iPhone, Android, Windows Phone, BlackBerry, Firefox OS and other mobile devices](http://mobilehtml5.org/)
 * [HTMLレンダリングエンジン - Wikipedia](https://ja.wikipedia.org/wiki/HTML%E3%83%AC%E3%83%B3%E3%83%80%E3%83%AA%E3%83%B3%E3%82%B0%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%B3)
 * [HTML Standard 日本語訳](https://momdo.github.io/html/)
+
+
+## 模写
+
+対象ページ: [お問い合わせフォーム（サンプル）](https://req.qubo.jp/qubo/form/KZTxekEm)
+
+### HTML Checker
+![HTML Checker](result/ScreenShot-20200810225843.jpg)
+
+### CSS Checker
+![CSS Checker](result/ScreenShot-20200810225847.jpg)
